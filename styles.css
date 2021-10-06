@@ -12,22 +12,30 @@
 }
 /* Separator*/
 .separator{
-    height: 30px;
     background-color: var(--light-peach);
+    color: #aaafb3;
+    padding: 10px;
 }
 .separator-text{
     text-align: center;
     font-size: 24px;
-    text-transform: capitalize;
+    text-transform:uppercase;
 }
 
 /* Review*/
-.reviewblock{
+.reviewsection{
     display: flex;
     justify-content: center;
     margin: 0em 10em 1em 10em;
-    gap: 3em;
-}
+    gap: 3%;
+    flex-wrap:wrap;
+    }
+.reviewblock{
+    max-width: 30%;
+    min-width: 300px;
+    min-height: 100px;
+    flex-grow: 1;
+ }
 .reviewname{
     font-family: sans-serif;
     font-size: 1.125em;
@@ -48,8 +56,10 @@
     font-family: sans-serif;
     padding: 1em;
     font-size: 1.125em;
-    min-height: 110px;
+    min-height: 170px;
     line-height: 25px;
+    display: flex;
+    align-items: center;
 }
 .reviewstars{
     padding: 1em 0em 0em 0em;

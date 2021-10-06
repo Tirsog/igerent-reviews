@@ -1,7 +1,4 @@
 # personal
-Menú principal:
-    Falta Logo y favicon real
-    Falta subir la paleta de colores
-    Falta el degradado del bottom-border
-        Subido el degradado pero le falta asignar el color correcto.
-    Instalar toggle para mobile con JS
+
+
+En lugar de usar archivos svg es mejor incluir el código para ahorrar la llamada. Cuando este listo el diseño meter el código dentro.
