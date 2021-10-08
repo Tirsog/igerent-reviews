@@ -37,6 +37,22 @@
     min-height: 100px;
     flex-grow: 1;
  }
+/* Testeando Quotations*/
+
+.reviewcontent::before{
+    content: open-quote;
+    color: #E08302;
+    font-size: 4em;
+    padding: 0em 0.3em 1em 0em;
+}
+.reviewcontent::after{
+    content: close-quote;
+    color: #E08302;
+    font-size: 4em;
+    position: relative;
+    top: 55px;
+}
+
 .reviewname{
     font-family: sans-serif;
     font-size: 1.125em;
